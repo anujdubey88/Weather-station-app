@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 10vh;
+    padding-top: 4vh;
+}
+body{
+    background-color: rgb(227, 160, 243);
+}
+.container{
+    background-color: rgb(227, 160, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh;
+    
+}
+.container img{
+    height: 2rem;
+}
+.city{
+    background-color: rgb(120, 222, 250);
+    min-height: 60vh;
+    min-width: 30vw;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.search{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 5vw;
+    margin-top: 4vw;
+}
+.in input{
+    border-radius: 1rem;
+    outline: none;
+    border-style: none;
+    height: 2rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.search img{
+    height: 1.3rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.sun img{
+    height: 5rem;
+}
+.degree{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+.cityname{
+    margin-bottom: 2rem;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.humidity, .windspeed{
+    display: flex;
+    gap: 1rem;
+}
